@@ -1,0 +1,59 @@
+body{
+    background-image: url("about back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.myDiv{
+    text-align: center; 
+}
+nav{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    position: relative;
+    display:inline-block ;
+    list-style: none;
+    margin: 20px 20px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+nav ul li a{
+    text-decoration:none;
+    text-decoration-color: none;
+    color: #000;
+    font-weight: bold;
+   
+}
+nav ul li:hover{
+    
+    background-color:papayawhip;
+    border-radius: 7px;
+    transition: 0.5s ease-in-out;
+}
+.myDiv{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.myDiv h1{
+    font-size: 70px;
+    color: #212121;
+    margin: 20px;
+    font-weight: bold;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+.myDiv h2{
+    font-size:40px;
+    
+}
+.myDiv {
+    color: rgb(7, 3, 3);
+    line-height: 22px;
+
+
+}
+
